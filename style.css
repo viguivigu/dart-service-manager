@@ -1,0 +1,270 @@
+body{
+	overflow-x: hidden;
+	font-family: sans-serif;
+	margin: 0;
+}
+header{
+	padding-bottom: 187px;
+	color: white;
+	background: linear-gradient(108deg, #1ceabe 20%, #0bb5bd 100%);
+}
+h2{
+	color:white;
+}
+section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+section{
+	margin-top: 100px;
+}
+img{ 
+	border-radius: 40px; 
+}
+.headertop{
+display: flex;
+height: 200px;
+}
+.logo{
+	margin-top: 35px;
+	margin-left: 65px;
+	height: 30px;
+	width: 179px;
+}
+a{
+	text-decoration:none;
+	color: white;
+}
+.lorandvid{
+	display: flex;
+}
+.headlinks{
+	margin-top: 20px;
+	display: flex;
+	font-size: 20px;
+	margin-left: 250px;
+}
+.headlink{
+	margin-left: 50px
+}
+.signupa{
+	text-align: center;
+	width: 100px;
+	margin-left: 300px;
+	font-size: 20px;
+	margin-top:	45px;
+	border: 1px white solid;
+}
+.loremus{
+	margin-left:65px;
+}
+.loremjr{
+	font-family: Monospace;
+	line-height: 2;
+	width: 600px
+}
+
+.btn-flex{
+	display: flex;
+	visibility: visible;
+}
+
+.bb{
+	border: none;
+	box-shadow: 0px 4px 3px black ;
+	color: white;
+	background-color: #061e37;
+	height: 55px;
+	width: 160px;
+	margin-left: 80px;
+	border-radius: 7px;
+	font-weight: 100;
+	font-size: 16pt;
+	text-align: center;
+	margin-top: auto;
+}
+
+.wb{
+	border: none;
+	box-shadow: 0px 4px 3px black ;
+	background-color: #fff;
+	height: 55px;
+	width: 160px;
+	margin-left: 80px;
+	border-radius: 7px;
+	font-weight: 700;
+	font-size: 14pt;
+	text-align: center;
+	margin-top: auto;
+}
+
+.headerbig{
+	font-family: "raleway";
+	width: 600px;
+	font-size: 50pt;
+}
+.box{
+	margin-left: 20px;
+	text-align: center;
+	padding-right: 11%;
+}
+.gs{
+	border: none;
+	box-shadow: 0px 4px 3px gray ;
+	color: white;
+	background-color: #1de9b6;
+	height: 85px;
+	width: 240px;
+	margin-left: 42%;
+	border-radius: 20px;
+	font-weight: 100;
+	font-size: 16pt;
+	text-align: center;
+	margin-top: 150px;
+}
+.sesbox{
+	align-content: center;
+}
+.boxflexes{
+	display: flex;
+	width: 100%; 
+	height:300px;
+	background: linear-gradient(90deg, rgba(128,216,255,1) 0%, rgba(130,177,255,1) 29%, rgba(179,136,255,1) 69%, rgba(234,128,252,1) 100%);
+	text-align: center;
+}
+#sinp{
+	opacity: 0;
+}
+.sbut{	
+	align-content: center;
+	width: 80%;
+	display: flex; 
+  	cursor: pointer;
+}
+.sitm {
+  align-content: center;
+  padding: 12px 24px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.sbut > span{
+  border-radius: 20px;
+  margin-left: 20%;
+  display: flex;
+  align-content: center;
+  width: 80%;
+  height: 60px;
+  background-color: #5a8df7;
+}
+.sesbox {
+  border-radius: 20px;
+  margin-left: 10%;
+  display: flex;
+  visibility: hidden;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background: linear-gradient(137deg, rgba(101,179,255,1) 53%, rgba(79,101,238,1) 100%);
+}
+#sinp:checked ~ .sesbox {
+  visibility: visible;
+  left: 0;
+}
+.allblu{
+	padding-bottom: 100px;
+	padding-left: 120px;
+	background: linear-gradient(90deg, rgba(33,220,179,1) 0%, rgba(13,187,213,1) 100%);
+}
+.bb2{
+	border: none;
+	box-shadow: 0px 4px 3px black ;
+	color: white;
+	background-color: #061e37;
+	height: 55px;
+	width: 160px;
+	margin-top: 200px;
+	border-radius: 7px;
+	font-weight: 100;
+	font-size: 16pt;
+	text-align: center;
+}
+.johndoe{
+	margin-top: 50px;
+	padding-left:200px; 
+	align-self: right;
+	display: flex;
+}
+.johnbox{
+	padding-top: 20px;
+	margin-left: 40px;
+	padding-left: 30px; 
+	background-color: white;
+	border-radius: 20px;
+	width: 500px;
+	height: 200px;
+}
+.bestofbest{
+	padding-top: 50px;
+	margin-top: 50px; 
+}
+.wewillhearyou{
+	display: inline-grid;
+	margin-left: 38%;
+}
+.wwhrib{
+	font-size: 20px;
+	border-color: #061e37;
+	border-radius: 8px;
+	margin-top: 20px;
+	height: 50px;
+	width: 400px;
+}
+.wwhricb{
+	border-radius: 8px;
+	border-color: #061e37;
+	margin-top: 0px;
+	height: 50px;
+	width: 400px;
+}
+.wwhribu{
+	color: white;
+	font-weight: 0;
+	font-size: 20px;
+	border:none;
+	border-radius: 8px;
+	margin-top: 20px;
+	height: 50px;
+	width: 200px;
+	margin-left: 25%;
+	background-color: #1de9b6;
+}
+.blankfoot{
+	margin-bottom: 40px;
+}
+footer{
+	background-color: #061e37;
+}
+.footerb{
+	height: 200px;
+}
+.footlinks{
+	margin-left: 630px;
+	margin-top: 20px;
+	display: flex;
+	font-size: 20px;
+}
+.footlink{
+	font-weight: 0;
+	padding-left: 50px;
+}
+.flexthisflexthat{
+	display: flex;
+}
+.footinfo{
+	margin-left: 20px;
+}
